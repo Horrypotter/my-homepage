@@ -1,0 +1,172 @@
+---
+　　layout: default
+　　title: 你好，世界
+---
+
+<h2>{{ page.title }}</h2>
+　　<p>最新文章</p>
+　　<ul>
+　　　　{% for post in site.posts %}
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　{% endfor %}
+　　</ul>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html401/loose.dtd">
+<html>
+  <head>
+  <title>Tom Sawyer's homepage</title>
+  <link rel="shortcut icon" href="http://pic.58pic.com/58pic/14/61/17/22258PICKqb_1024.jpg">
+  <meta name ="Keywords" content="jingzihong,geek">
+  <meta name="description" content="this is my hompage,life log,work log">
+  <meta name="robots" content="all">
+  <meta name="author" content="jingzihong,jingzihong@foxmail.com">
+  <meta name="generator" content="my left and right hand.">
+  <meta name="revisit-after" content="7days">
+  
+  <meta name="ICBM" content="52.2196,0.1091">
+  <meta name="DC.title" content="Tom Sawyer's homepage">
+  <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+  <meta http-equiv="expires" content="Fri,12 Jan 2016 01:01:01 GMT">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Refresh" content="300;URL=http://www.baidu.com"">
+  <meta http-equiv="Set-Cookie" content="cookie value=xxx;expires=Friday,12-Jan-200111:18:18GMT;path=/">
+  <meta http-equiv="Window-target" content="_top">
+  <meta http-equiv="imagetoolbar" content="true">
+  
+  <!-- 
+  <meta http-equiv="Content-Language" content="zh-cn"/>
+  -->
+  </head>
+  <body>
+	<h1>this page just copy and modified from Tony Finch's homepage,when i scan his page,i very like his page,so i fetch it and want to build my homepage.</h1>
+    <h1><img src="http://pic.58pic.com/58pic/14/61/17/22258PICKqb_1024.jpg" alt="my hompage" width="48" height="40" align="middle">
+    Tom Sawyer's homepage</h1>
+
+    <p>
+    <a href="cgi/go?www-uxsup.csx.cam.ac.uk/~fanf2/">my work web page</a>
+    (including stuff about email, especially in bocom)<br>
+    <a href="cgi/go?fanf.livejournal.com/?style=mine">my blog</a>
+    (in which I mostly write about things I'm working on)<br>
+    <a href="cgi/go?twitter.com/fanf">my Twitter account</a>
+    (to which I feed my link log and a steady diet of retweets)<br>
+    <a href="linklog.html">my link log</a>
+    (wildly weird and wonderful)<br>
+    My git repositories
+    <a href="cgi/git">on chiark</a> and
+    <a href="https://github.com/Horrypotter">on github</a>;<br>
+    My git server <a href="https://git.csx.cam.ac.uk/x/ucs">at work</a>.<br>
+	My <a href="_posts/favorites.markdown">Favorites</a>
+	My <a href="_postsfavorites.md">Favorites2</a>
+    </p>
+
+    <h2>A bit about me</h2>
+
+      <p>I am a java developer from
+      <a href="cgi/go?www.cam.ac.uk/cambarea/">bocom</a>.
+      I <a href="cgi/go?www-uxsup.csx.cam.ac.uk/~fanf2/">work</a> at the
+      <a href="cgi/go?www.cam.ac.uk">bocom</a>
+      <a href="cgi/go?www.uis.cam.ac.uk">Information analyse</a>,
+      helping to design a soft to handle information.
+      I am not have a girlfriend,but i hope to have a one<a href="http://www.chiark.greenend.org.uk/~rmc28/">Qiaoen</a></p>
+
+      <p>I have some small pages about <a href="name.html">my name</a>,
+      <a href="email.html">my email address</a>, and
+      <a href="pictures.html">what I look like</a>.</p>
+
+      <p>My PGP key fingerprint is:</p>
+<pre>
+pub  1024D/84C71B6E 2002-05-03 Tony Finch &lt;dot@dotat.at&gt;
+     Key fingerprint = 199C F25B 2679 6D04 63C5  2159 FFC0 F14C 84C7 1B6E
+uid                  Tony Finch &lt;fanf@apache.org&gt;
+uid                  Tony Finch &lt;fanf@exim.org&gt;
+uid                  Tony Finch &lt;fanf@FreeBSD.org&gt;
+uid                  Tony Finch &lt;fanf2@cam.ac.uk&gt;
+sub  2048g/FD101E8B 2002-05-03
+</pre>
+
+    <h2>Some of my software</h2>
+
+      <p><b><a href="/prog/unifdef/">unifdef</a></b> selectively
+      removes C preprocessor conditionals. My version of this program
+      now shipped by all the BSDs (including Mac OS X) and is used by
+      the Linux kernel build system.</p>
+
+      <p><b><a href="/prog/nsdiff/">nsdiff</a></b> creates an "nsupdate"
+      script from DNS zone file differences. We use it at Cambridge as
+      part of our DNS update process.</p>
+
+      <p><b><a href="/prog/nsnotifyd/">nsnotifyd</a></b> handles DNS NOTIFY
+      messages by running a command. It's a general-purpose tool for
+      responding quickly to DNS changes. It comes with several example
+      applications.</p>
+
+      <p><b><a href="/prog/qp/">qp tries</a></b> are a data structure
+      for associating values with string keys. They are smaller and
+      faster than crit-bit tries.</p>
+
+      <p><b><a href="http://fanf.livejournal.com/132656.html">Uplift
+      from SCCS to git</a></b>. If you are ever in the unfortunate
+      situation of having to work with an old SCCS repository, I
+      have <a href="https://git.csx.cam.ac.uk/x/ucs/ipreg/sccs2rcs2cvs2git.git">a
+      suite of scripts to convert SCCS to git</a> which you might find helpful.</p>
+
+      <p><b><a href="/prog/life/">Conway's Game of Life</a></b> -
+      I have a description of the evolution of
+      <a href="prog/life/life.html">my nice little implementation</a>
+      and various unfinished experiments.</p>
+
+      <p><b><a href="/cgi/git/picoro.git">picoro</a></b> - tiny
+      coroutine implementations in pure C. I wrote an accompanying
+      article, <a href="http://fanf.livejournal.com/105413.html">coroutines
+      in 20 lines of standard C</a>.</p>
+
+      <p><b><a href="http://fanf.livejournal.com/93326.html">Counting
+      the days</a></b> - tiny routines for converting Gregorian dates
+      into linear counts, like Julian day numbers or Unix <tt>time_t</tt>.
+      <a href="http://fanf.livejournal.com/93771.html">The date of the
+      count</a> - a small routine for converting linear day counts
+      into Gregorian dates.</p>
+
+      <p><b><a href="http://fanf.livejournal.com/93771.html">FizzBuzz
+      with higher-order cpp macros and ELF linker sets</a></b> - very
+      DRY solutions to a silly exercise.</p>
+
+      <p>I have <a href="/prog/">a directory containing various other bits of
+      code</a>.</p>
+
+      <p>I was
+      <a href="cgi/go?www.ioccc.org/years.html#1998_fanf">one of the winners</a>
+      of the 1998/9
+      <a href="cgi/go?www.ioccc.org/">International Obfuscated C Code Competition</a>.</p>
+
+      <p><a href="http://www.chiark.greenend.org.uk/~sgtatham/">Simon Tatham</a>
+      has a description of his really nice
+      <a href="http://www.chiark.greenend.org.uk/~sgtatham/algorithms/listsort.html">mergesort algorithm for linked lists</a>
+      which sorts in place with O(1) overhead and only uses forward
+      links. In October 2005 I wrote
+      <a href="http://fanf.livejournal.com/40178.html">another description of the algorithm</a>
+      which I think is easier to understand.</p>
+
+      <p><a href="cgi/go?www.exim.org">Exim</a> is
+      <a href="cgi/go?c2.com/cgi/wiki?TuringEquivalent">Turing-equivalent</a>.
+      I wrote <a href="writing/exim-turing.conf">a little demo</a>
+      which includes an informal description of how to translate a
+      Turing machine into an Exim configuration, and an example
+      configuration that implements combinator reduction like my IOCCC
+      winner mentioned above.</p>
+
+    <hr>
+
+    <p>Thanks to <a href="cgi/go?www.chiark.greenend.org.uk/~ijackson/">Tony Finch</a>
+    i fetch his pages on <a href="http://dotat.at/">chiark</a>.</p>
+
+    <hr>
+    <address>
+      <a href="https://github.com/Horrypotter/my-homepage">Tony Finch</a> <em>is</em>
+      <code>&lt;<a href="mailto:jingzihong@foxmail">jingzihong@foxmail</a>&gt;</code>
+    </address>
+    <p>$dotat: doc/web/homepage.html,v 1.110 2015/10/06 13:24:03 fanf2 Exp $
+  </body>
+</html>
