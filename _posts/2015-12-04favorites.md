@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 你好，世界
+title: my favorites
 ---
 #My favorites
 ##1 .[test](http://www.baidu.com)
