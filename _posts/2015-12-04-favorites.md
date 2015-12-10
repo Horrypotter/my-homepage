@@ -2,6 +2,7 @@
 layout: default
 title: my favorites
 ---
+
 #My favorites
 ##1 .[test](http://www.baidu.com)
 ##2 .[markdown rules](markdown_rules.markdown)
