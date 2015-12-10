@@ -1,6 +1,6 @@
 ---
 layout: default
-title: {{page.title}}
+title: elasticsearch
 ---
 #Elasticsearch study note
 Recently i have encountered with **[Elasticsearch](https://www.elastic.co/)**,my work ask me to study elasticsearch.
