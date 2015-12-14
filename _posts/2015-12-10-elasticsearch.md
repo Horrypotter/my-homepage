@@ -11,9 +11,9 @@ This [site](http://www.hubwiz.com/course/55473b0aebfde9b5591bb80a/) is very good
 Here are many [plugin](http://www.cnblogs.com/huangfox/p/3541300.html) you can use,what plugin i am using is **elasticsearch-head** you can visit in your browser by type :127.0.0.1:9200/_plugin/head
 
 type command:
-
-    curl -XGET 'http://localhost:9200/_count?pretty'
-
+```
+curl -XGET 'http://localhost:9200/_count?pretty'
+```
 return:
 
     {
@@ -24,3 +24,5 @@ return:
     "failed" : 0
     }
     }
+this [blog](http://blog.csdn.net/july_2/article/details/24730151) is nice  to study es.
+This [site](http://www.sxt.cn/u/2540/blog/3592) tell you how to find the ikanalyzer's core source code.
