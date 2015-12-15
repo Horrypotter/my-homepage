@@ -7,3 +7,5 @@ title: knowledge group
 #[WolframAlpha](http://www.wolframalpha.com/)
 
 #[magi](http://www.peak-labs.com/)
+
+#[IBM WATSON](http://www-31.ibm.com/ibm/cn/madewithibm/watson/?S_TACT=C3440AEW&iio=chq&cmp=c3440&ct=c3440aew&cr=baidu&cm=k&csot=-&ccy=-&cpb=-&cd=-&ck=c3440aew11&mkwid=1WfhcVQRq_8145525608_432t3t30585)
