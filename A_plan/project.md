@@ -26,4 +26,4 @@ title: knowledge group
 ##plan B:建立知识大全的搜索引擎
 
 ###brief introduction：实现各种学科从入门到精通的知识体系，即最全的知识树的展示，帮助人们快速学习，打破教育的不平衡。
->>>>>>> cbac662bbb2a65417d44fd8a1ee874cb131769f4:A_plan/project.md
+
