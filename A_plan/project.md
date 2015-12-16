@@ -3,7 +3,7 @@ layout: default
 title: knowledge group
 ---
 
-#[xlore](http://xlore.org/index)
+#[xlore](http://xlore.org/index) 在github上搜索xlore能找到实验室的人
 #[跨语言知识图谱构建](http://wenku.baidu.com/link?url=ndKCGl2Al8GladgbXnORgK-VFG5SYhtEdQzEV5chT_zwgDk6DI3D8jsNPPxo2P2bkiIeVBUeYpIeFzyh7_aWoIEUa1-W4FV2bRD6rkLPcgK)
 
 #[WolframAlpha](http://www.wolframalpha.com/)
