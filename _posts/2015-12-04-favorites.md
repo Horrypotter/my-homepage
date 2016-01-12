@@ -10,3 +10,4 @@ title: my favorites
 ##4 .[git commond](git_commond.markdown)
 
 ##5 .[36ke](http://36kr.com/)
+##6 .[日本的搜索引擎](http://www.naver.com/)
