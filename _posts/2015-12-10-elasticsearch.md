@@ -29,3 +29,5 @@ this [blog](http://blog.csdn.net/july_2/article/details/24730151) is nice  to st
 This [site](http://www.sxt.cn/u/2540/blog/3592) tell you how to find the ikanalyzer's core source code.
 
 the[ElasticSearch Java api](http://www.bubuko.com/infodetail-648214.html) tell you which query type you should choose,and you can see [this](http://www.cnblogs.com/yjf512/p/4897294.html) too.
+
+[ElasticSearch Users](http://elasticsearch-users.115913.n3.nabble.com/)
