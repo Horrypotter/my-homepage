@@ -11,3 +11,4 @@ title: my favorites
 
 ##5 .[36ke](http://36kr.com/)
 ##6 .[日本的搜索引擎](http://www.naver.com/)
+##7 .[类似gitup的网站](http://www.codeplex.com/)
