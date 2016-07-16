@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 应用超市同步笔记
+title: RsyncNote
 ---
 
 #应用超市同步笔记
 
 
-##1、 配置两台服务器的rsync的配置
+##1. 配置两台服务器的rsync的配置
 执行：
 vi /etc/rsyncd.conf
 写入（括号里的不能写入）：
@@ -33,9 +33,9 @@ chmod 600 /etc/password.rsync 必须付权限
 
 
 
-##2、 两台服务器分别启动rsync ： rsync --daemon 首次启动（rsync --daemon --config=/etc/rsyncd.conf）
+##2. 两台服务器分别启动rsync ： rsync --daemon 首次启动（rsync --daemon --config=/etc/rsyncd.conf）
 
-##3、 执行：cd appImage
+##3. 执行：cd appImage
           rsync -artuz -R ./ 10.30.3.82::tongbu --password-file=/etc/password.rsync（为保持双向同步，不用--delete）
  
  注意：
